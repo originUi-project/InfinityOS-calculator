@@ -9,11 +9,13 @@ qt6_add_qml_module(OriginUi_calculatorContent
     VERSION 1.0
     RESOURCE_PREFIX "/qt/qml"
     QML_FILES
+        "AnimatedResultText.qml"
         "App.qml"
         "Calculator.qml"
         "CalculatorButton.qml"
         "ClearButton.qml"
         "Screen01.ui.qml"
+        "SmoothCursorInput.qml"
 )
 
 

@@ -6,6 +6,8 @@ Screen01 {
 
     function appendToInput(val) {
         inputField.text += val
+        inputField.cursorPosition = inputField.text.length
+        inputField.forceActiveFocus()
     }
 
     function calculate() {
@@ -34,6 +36,8 @@ Screen01 {
         btnEquals.clicked.connect(() => calculate())
         btnClear.clicked.connect(() => {
             inputField.text = ""
+            inputField.cursorPosition = 0
+            inputField.forceActiveFocus()
             resultText.text = ""
         })
     }

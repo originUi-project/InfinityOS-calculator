@@ -28,25 +28,27 @@ Rectangle {
     property alias btnMultiply: btnMultiply
     property alias btnDivide: btnDivide
     property alias btnClear: btnClear
-    TextInput {
+
+    SmoothCursorInput {
         id: inputField
         x: 15
         y: 10
         width: 230
         height: 40
+        focus: true
         font.pixelSize: 24
         font.family: "Inter"
         color: "#222222"
     }
 
-    Text {
+    AnimatedResultText {
         id: resultText
         x: 15
-        y: 48
         font.pixelSize: 16
         font.family: "Inter"
         color: "#aaaaaa"
     }
+
     ClearButton {
         id: btnClear
         x: 289
