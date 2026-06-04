@@ -1,0 +1,15 @@
+<RCC>
+    <qresource>
+        <file>OriginUi_calculator.qmlproject</file>
+        <file>OriginUi_calculator/Constants.qml</file>
+        <file>OriginUi_calculator/EventListModel.qml</file>
+        <file>OriginUi_calculator/EventListSimulator.qml</file>
+        <file>OriginUi_calculator/qmldir</file>
+        <file>OriginUi_calculatorContent/App.qml</file>
+        <file>OriginUi_calculatorContent/Calculator.qml</file>
+        <file>OriginUi_calculatorContent/CalculatorButton.qml</file>
+        <file>OriginUi_calculatorContent/ClearButton.qml</file>
+        <file>OriginUi_calculatorContent/Screen01.ui.qml</file>
+        <file>qtquickcontrols2.conf</file>
+    </qresource>
+</RCC>
