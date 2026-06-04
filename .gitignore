@@ -1,0 +1,11 @@
+# Qt Creator user settings
+*.user
+*.user.*
+*.shared
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build directories
+build*/
