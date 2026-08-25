@@ -1,7 +1,7 @@
 import QtQuick
 import QtQuick.Controls
 import QtQuick.Effects
-import OriginUi_calculator
+import infinityOS_calculator
 import QtQuick.Studio.DesignEffects
 import Qt5Compat.GraphicalEffects
 

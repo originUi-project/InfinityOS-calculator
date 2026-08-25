@@ -3,9 +3,9 @@
 
 
 
-qt_add_library(OriginUi_calculatorContent STATIC)
-qt6_add_qml_module(OriginUi_calculatorContent
-    URI "OriginUi_calculatorContent"
+qt_add_library(infinityOS_calculatorContent STATIC)
+qt6_add_qml_module(infinityOS_calculatorContent
+    URI "infinityOS_calculatorContent"
     VERSION 1.0
     RESOURCE_PREFIX "/qt/qml"
     QML_FILES

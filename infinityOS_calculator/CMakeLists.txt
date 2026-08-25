@@ -8,9 +8,9 @@ set_source_files_properties(Constants.qml
 
 
 
-qt_add_library(OriginUi_calculator STATIC)
-qt6_add_qml_module(OriginUi_calculator
-    URI "OriginUi_calculator"
+qt_add_library(infinityOS_calculator STATIC)
+qt6_add_qml_module(infinityOS_calculator
+    URI "infinityOS_calculator"
     VERSION 1.0
     RESOURCE_PREFIX "/qt/qml"
     QML_FILES

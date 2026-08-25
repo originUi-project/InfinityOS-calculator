@@ -1,5 +1,5 @@
 import QtQuick
-import OriginUi_calculator
+import infinityOS_calculator
 
 Screen01 {
     id: form

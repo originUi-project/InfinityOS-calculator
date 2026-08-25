@@ -1,5 +1,5 @@
 import QtQuick
-import OriginUi_calculator
+import infinityOS_calculator
 
 Window {
     width: mainScreen.width

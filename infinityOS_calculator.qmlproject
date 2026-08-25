@@ -1,16 +1,16 @@
 import QmlProject
 
 Project {
-    mainFile: "OriginUi_calculatorContent/App.qml"
-    mainUiFile: "OriginUi_calculatorContent/Screen01.ui.qml"
+    mainFile: "infinityOS_calculatorContent/App.qml"
+    mainUiFile: "infinityOS_calculatorContent/Screen01.ui.qml"
 
     /* Include .qml, .js, and image files from current directory and subdirectories */
     QmlFiles {
-        directory: "OriginUi_calculator"
+        directory: "infinityOS_calculator"
     }
 
     QmlFiles {
-        directory: "OriginUi_calculatorContent"
+        directory: "infinityOS_calculatorContent"
     }
 
     QmlFiles {
@@ -18,15 +18,15 @@ Project {
     }
 
     JavaScriptFiles {
-        directory: "OriginUi_calculator"
+        directory: "infinityOS_calculator"
     }
 
     JavaScriptFiles {
-        directory: "OriginUi_calculatorContent"
+        directory: "infinityOS_calculatorContent"
     }
 
     ImageFiles {
-        directory: "OriginUi_calculatorContent"
+        directory: "infinityOS_calculatorContent"
     }
 
     ImageFiles {
@@ -96,7 +96,7 @@ Project {
     importPaths: [ "." ]
 
     /* Required for deployment */
-    targetDirectory: "/opt/OriginUi_calculator"
+    targetDirectory: "/opt/infinityOS_calculator"
 
     enableCMakeGeneration: true
     standaloneApp: true
@@ -111,10 +111,10 @@ Project {
     /* args: Specifies command line arguments for qsb tool to generate shaders.
        files: Specifies target files for qsb tool. If path is included, it must be relative to this file.
               Wildcard '*' can be used in the file name part of the path.
-              e.g. files: [ "OriginUi_calculatorContent/shaders/*.vert", "*.frag" ]  */
+              e.g. files: [ "infinityOS_calculatorContent/shaders/*.vert", "*.frag" ]  */
     ShaderTool {
         args: "-s --glsl \"100 es,120,150\" --hlsl 50 --msl 12"
-        files: [ "OriginUi_calculatorContent/shaders/*" ]
+        files: [ "infinityOS_calculatorContent/shaders/*" ]
     }
 
     multilanguageSupport: true

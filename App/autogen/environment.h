@@ -8,10 +8,10 @@
 #include <QGuiApplication>
 #include "qqmlextensionplugin.h"
 
-Q_IMPORT_QML_PLUGIN(OriginUi_calculatorPlugin)
-Q_IMPORT_QML_PLUGIN(OriginUi_calculatorContentPlugin)
+Q_IMPORT_QML_PLUGIN(infinityOS_calculatorPlugin)
+Q_IMPORT_QML_PLUGIN(infinityOS_calculatorContentPlugin)
 
-const char mainQmlFile[] = "qrc:/qt/qml/OriginUi_calculatorContent/App.qml";
+const char mainQmlFile[] = "qrc:/qt/qml/infinityOS_calculatorContent/App.qml";
 
 #ifdef BUILD_QDS_COMPONENTS
 
